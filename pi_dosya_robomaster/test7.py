@@ -5,7 +5,7 @@ from time import sleep, time
 def read_process():
     # Read the image identification numbers from the `resim_id_listesi` list and return them as a dictionary.
 
-    resim_id_listesi = [12, 11, 1, 2, 3, 4, 5, 10, 6]
+    resim_id_listesi = [10,5, 11, 1, 2, 3, 4,6]
 
     # The `resim_id_listesi` list contains the image identification numbers.
 
@@ -21,7 +21,7 @@ def read_process():
         9: controller_fastforward,
         10: controller_music,
         11: controller_fire,
-        12: controller_music1,
+        
     }
 
     # The `operations` dictionary contains the functions that will be executed for each image identification number.
