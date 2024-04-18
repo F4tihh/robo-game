@@ -54,14 +54,14 @@ def read_process():
                     if id:
                         reads[v + 1] = id
                         txt = "0x001"
-                        #readers[v].write(txt) # RFID TAg eklemek istersek bu komutu çalýþtýracaðýz.
+                        #readers[v].write(txt) # RFID TAg eklemek istersek bu komutu ï¿½alï¿½ï¿½tï¿½racaï¿½ï¿½z.
                         curr_poll_list.remove(v)
                     print("%d ID: %s %s" % (i, id, text)) 
 		    
                     #print(list(str(text).encode('ascii')))
                 total_read += 1
                 # print(curr_poll_list)
-
+                # print(curr_poll_list)
             else:
                 if total_read != 0:
                     return reads
